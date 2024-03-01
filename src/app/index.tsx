@@ -1,11 +1,12 @@
 import React from 'react';
+import { MainPage } from '@/pages/main';
 import './index.scss';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="text-red-500">Star DB</h1>
+        <MainPage />
       </div>
     );
   }
