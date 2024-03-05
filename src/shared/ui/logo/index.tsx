@@ -2,7 +2,11 @@ import React from 'react';
 
 class Logo extends React.Component {
   render() {
-    return <div>Star DB</div>;
+    return (
+      <h1 className="text-5xl">
+        <a href="#">Star DB</a>
+      </h1>
+    );
   }
 }
 

@@ -7,7 +7,7 @@ import { Header } from '@/widgets/header';
 class MainPage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="max-w-5xl m-auto">
         <Header />
         <RandomPlanet />
         <ItemList />
