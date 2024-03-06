@@ -5,7 +5,7 @@ import { NavLink } from '@/shared/ui';
 class Header extends React.Component {
   render() {
     return (
-      <header className="h-24 flex justify-start items-center gap-14">
+      <header className="h-24 flex justify-start items-center gap-14 mb-4">
         <Logo />
         <nav className="flex items-center gap-8">
           <NavLink text="People" />
