@@ -10,8 +10,10 @@ class MainPage extends React.Component {
       <div className="max-w-5xl m-auto">
         <Header />
         <RandomPlanet />
-        <ItemList />
-        <ItemDetails />
+        <div className="flex items-start gap-8">
+          <ItemList />
+          <ItemDetails />
+        </div>
       </div>
     );
   }
