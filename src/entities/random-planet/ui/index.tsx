@@ -3,7 +3,7 @@ import React from 'react';
 class RandomPlanet extends React.Component {
   render() {
     return (
-      <article className="flex items-center justify-start gap-8 p-5 rounded-md bg-neutral-700">
+      <article className="flex items-center justify-start gap-8 p-5 mb-8 rounded-md bg-neutral-700">
         <div className="relative w-48 h-48 rounded-lg overflow-hidden">
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-amber-100"></div>
         </div>
